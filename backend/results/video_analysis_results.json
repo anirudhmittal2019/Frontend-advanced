@@ -1,0 +1,13 @@
+[
+  {
+    "decision": "FAKE",
+    "confidence": 84,
+    "factors": [],
+    "raw_scores": {
+      "fake_score": 2,
+      "total_factors": 2
+    },
+    "video_path": "output.mp4",
+    "timestamp": "2025-02-22T23:42:05.679292"
+  }
+]

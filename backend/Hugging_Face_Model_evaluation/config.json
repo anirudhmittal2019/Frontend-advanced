@@ -1,0 +1,8 @@
+{
+    "model_type": "vit",
+    "architectures": ["ViTForImageClassification"],
+    "num_labels": 2,
+    "id2label": {"0": "REAL", "1": "FAKE"},
+    "label2id": {"REAL": 0, "FAKE": 1}
+  }
+  

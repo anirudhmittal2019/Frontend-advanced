@@ -1,0 +1,397 @@
+[
+  {
+    "decision": 0,
+    "confidence": 72.0,
+    "img_url": "https://real-vs-fake.vercel.app/real1.jpg",
+    "explanation": "V2 Model predicts real. VS Model predicts real with high confidence. However, Google Vision detects some inconsistencies that could indicate fakery. Unable to determine with certainty, defaulting to real.",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "JPEG",
+    "timestamp": "2025-02-23T02:02:15.228004"
+  },
+  {
+    "decision": 0,
+    "confidence": 58.53278040885925,
+    "img_url": "https://real-vs-fake.vercel.app/lastpictureoftheday.jpg",
+    "explanation": "V2 model predicts real, with confidence below 70%. No other models indicate fake.",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "JPEG",
+    "timestamp": "2025-02-23T02:02:15.548465"
+  },
+  {
+    "decision": 1,
+    "confidence": 75.39612650871277,
+    "img_url": "https://real-vs-fake.vercel.app/lastlast.jpg",
+    "explanation": "The V2 model predicts the image is fake with 75.39% confidence.",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "JPEG",
+    "timestamp": "2025-02-23T02:02:15.758529"
+  },
+  {
+    "decision": 0,
+    "confidence": 89.89294171333313,
+    "img_url": "https://real-vs-fake.vercel.app/30.jpg",
+    "explanation": "The V2 model predicted real with high confidence (89.89294171333313%).",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "JPEG",
+    "timestamp": "2025-02-23T02:02:15.769730"
+  },
+  {
+    "decision": 1,
+    "confidence": 100.0,
+    "img_url": "https://real-vs-fake.vercel.app/image.png",
+    "explanation": "The V2 model has a confidence of 81.28886222839355%, which exceeds the 70% threshold for marking an image as fake. Additionally, the VS model has detected strong indicators of image manipulation, further supporting the conclusion that this image is fake.",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "PNG",
+    "timestamp": "2025-02-23T02:02:16.346764"
+  },
+  {
+    "decision": 0,
+    "confidence": 98.66798520088196,
+    "img_url": "https://real-vs-fake.vercel.app/real1.jpg",
+    "explanation": "V2 Model strongly indicates a real image, and there are no strong evidence from Google Vision to suggest otherwise.",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "JPEG",
+    "timestamp": "2025-02-23T02:12:19.317641"
+  },
+  {
+    "decision": 0,
+    "confidence": 58.53278040885925,
+    "img_url": "https://real-vs-fake.vercel.app/lastpictureoftheday.jpg",
+    "explanation": "V2 Model predicts real (confidence 58.53%).",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "JPEG",
+    "timestamp": "2025-02-23T02:12:19.447932"
+  },
+  {
+    "decision": 0,
+    "confidence": 0.0,
+    "img_url": "https://real-vs-fake.vercel.app/lastlast.jpg",
+    "explanation": "The V2 model predicts real with 75.39612650871277% confidence. The VS model predicts fake but with less than 70% confidence so it will be ignored. Google Vision has no obvious signs of manipulation.",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "JPEG",
+    "timestamp": "2025-02-23T02:12:19.480115"
+  },
+  {
+    "decision": 0,
+    "confidence": 0.0,
+    "img_url": "https://real-vs-fake.vercel.app/image.png",
+    "explanation": "Google Vision results indicate a low confidence in object detection and inconsistencies. The V2 model is below 70% confidence. Thus, the image is likely real.",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "PNG",
+    "timestamp": "2025-02-23T02:12:19.598931"
+  },
+  {
+    "decision": 0,
+    "confidence": 89.89294171333313,
+    "img_url": "https://real-vs-fake.vercel.app/30.jpg",
+    "explanation": "V2 Model predicts 'REAL' with high confidence (89.89%) and no other indicators suggest otherwise.",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "JPEG",
+    "timestamp": "2025-02-23T02:12:19.860852"
+  },
+  {
+    "decision": 0,
+    "confidence": 89.89294171333313,
+    "img_url": "https://real-vs-fake.vercel.app/30.jpg",
+    "explanation": "V2 Model predicts real",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "JPEG",
+    "timestamp": "2025-02-23T02:14:06.473353"
+  },
+  {
+    "decision": 0,
+    "confidence": 0.0,
+    "img_url": "https://real-vs-fake.vercel.app/real1.jpg",
+    "explanation": "Google Vision flags low confidence face detection and inconsistencies; however, V2 model predicts real with below 70% confidence; therefore, it's likely real.",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "JPEG",
+    "timestamp": "2025-02-23T02:14:06.636744"
+  },
+  {
+    "decision": 1,
+    "confidence": 93.97295117378235,
+    "img_url": "https://real-vs-fake.vercel.app/lastpictureoftheday.jpg",
+    "explanation": "Google Vision analysis results are inconclusive, but the VS Model has detected strong indicators of image manipulation. Therefore, we mark this image as fake.",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "JPEG",
+    "timestamp": "2025-02-23T02:14:06.970506"
+  },
+  {
+    "decision": 1,
+    "confidence": 75.39612650871277,
+    "img_url": "https://real-vs-fake.vercel.app/lastlast.jpg",
+    "explanation": "The image is likely fake due to the high confidence of the V2 model and the inconsistency detected by Google Vision.",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "JPEG",
+    "timestamp": "2025-02-23T02:14:07.237817"
+  },
+  {
+    "decision": 1,
+    "confidence": 99.75848197937012,
+    "img_url": "https://real-vs-fake.vercel.app/image.png",
+    "explanation": "There are low confidence object detections and inconsistency in Google Vision results, indicating potential image manipulation. Additionally, the VS Model strongly suggests manipulation with high confidence.",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "PNG",
+    "timestamp": "2025-02-23T02:14:07.369312"
+  },
+  {
+    "decision": 0,
+    "confidence": 75.39612650871277,
+    "img_url": "https://real-vs-fake.vercel.app/lastlast.jpg",
+    "explanation": "V2 Model predicts REAL with 75% confidence.",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "JPEG",
+    "timestamp": "2025-02-23T02:15:29.849561"
+  },
+  {
+    "decision": 0,
+    "confidence": 58.53278040885925,
+    "img_url": "https://real-vs-fake.vercel.app/lastpictureoftheday.jpg",
+    "explanation": "V2 model predicts real with 58.53% confidence.",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "JPEG",
+    "timestamp": "2025-02-23T02:15:29.953609"
+  },
+  {
+    "decision": 0,
+    "confidence": 71.98706269264221,
+    "img_url": "https://real-vs-fake.vercel.app/real1.jpg",
+    "explanation": "The V2 Model predicts the image is real with 71.98% confidence. The Google Vision API and VS Model do not exceed 70% confidence, thus the image is likely real.",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "JPEG",
+    "timestamp": "2025-02-23T02:15:30.206842"
+  },
+  {
+    "decision": 0,
+    "confidence": 89.89294171333313,
+    "img_url": "https://real-vs-fake.vercel.app/30.jpg",
+    "explanation": "The V2 model predicts this image is real with high confidence (89.89%). Google Vision detected a person with low confidence and some inconsistency, but these factors are not significant enough to override the V2 model's prediction.",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "JPEG",
+    "timestamp": "2025-02-23T02:15:30.501037"
+  },
+  {
+    "decision": 1,
+    "confidence": 99.75848197937012,
+    "img_url": "https://real-vs-fake.vercel.app/image.png",
+    "explanation": "The VS Model has a confidence level of 99.7% that the image is fake, and the V2 Model has a confidence level of 81.2% that the image is fake.",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "PNG",
+    "timestamp": "2025-02-23T02:15:30.942775"
+  },
+  {
+    "decision": 1,
+    "confidence": 75.39612650871277,
+    "img_url": "https://real-vs-fake.vercel.app/lastlast.jpg",
+    "explanation": "V2 Model predicts image is fake with a confidence of 75.39%. VS Model prediction is fake with 99.83% confidence",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "JPEG",
+    "timestamp": "2025-02-23T02:17:03.279296"
+  },
+  {
+    "decision": 0,
+    "confidence": 99.83989596366882,
+    "img_url": "https://real-vs-fake.vercel.app/30.jpg",
+    "explanation": "While the image has some potential indicators of manipulation, the VS model's high confidence in its authenticity suggests it is likely real.",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "JPEG",
+    "timestamp": "2025-02-23T02:17:03.626744"
+  },
+  {
+    "decision": 0,
+    "confidence": 71.98706269264221,
+    "img_url": "https://real-vs-fake.vercel.app/real1.jpg",
+    "explanation": "The V2 model detected the image as real with a confidence higher than 70%, so I'm marking it as fake.",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "JPEG",
+    "timestamp": "2025-02-23T02:17:03.819209"
+  },
+  {
+    "decision": 1,
+    "confidence": 93.97295117378235,
+    "img_url": "https://real-vs-fake.vercel.app/lastpictureoftheday.jpg",
+    "explanation": "The VS Model flagged this image as fake with 93.97% confidence due to strong indicators of manipulation.",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "JPEG",
+    "timestamp": "2025-02-23T02:17:03.909398"
+  },
+  {
+    "decision": 1,
+    "confidence": 99.75848197937012,
+    "img_url": "https://real-vs-fake.vercel.app/image.png",
+    "explanation": "The VS Model has detected strong indicators of image manipulation with very high confidence (99.75848197937012%). Additionally, the V2 Model has predicted the image to be fake with a confidence of 81.28886222839355%, further supporting the likelihood of manipulation.",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "PNG",
+    "timestamp": "2025-02-23T02:17:04.571511"
+  },
+  {
+    "decision": 0,
+    "confidence": 100,
+    "img_url": "chrome-extension://ocdbbecfckogbgoeggbfehofcnhjjkcg/confuse.gif",
+    "explanation": "Chrome extension resource - skipped analysis",
+    "image_id": "Y2hyb21lLWV4",
+    "timestamp": "2025-02-23T02:17:18.847891"
+  },
+  {
+    "decision": 0,
+    "confidence": 100,
+    "img_url": "chrome-extension://ocdbbecfckogbgoeggbfehofcnhjjkcg/sit.gif",
+    "explanation": "Chrome extension resource - skipped analysis",
+    "image_id": "Y2hyb21lLWV4",
+    "timestamp": "2025-02-23T02:17:19.858244"
+  },
+  {
+    "decision": 0,
+    "confidence": 100,
+    "img_url": "https://www.youtube.com/shorts/WdoY_EXiT80",
+    "explanation": "System error: cannot identify image file <_io.BytesIO object at 0x00000284C7E8E520>",
+    "image_id": "aHR0cHM6Ly93",
+    "timestamp": "2025-02-23T02:17:26.355581"
+  },
+  {
+    "decision": 0,
+    "confidence": 100,
+    "img_url": "chrome-extension://ocdbbecfckogbgoeggbfehofcnhjjkcg/confuse.gif",
+    "explanation": "Chrome extension resource - skipped analysis",
+    "image_id": "Y2hyb21lLWV4",
+    "timestamp": "2025-02-23T02:17:27.959052"
+  },
+  {
+    "decision": 0,
+    "confidence": 100,
+    "img_url": "chrome-extension://ocdbbecfckogbgoeggbfehofcnhjjkcg/shiny.gif",
+    "explanation": "Chrome extension resource - skipped analysis",
+    "image_id": "Y2hyb21lLWV4",
+    "timestamp": "2025-02-23T02:17:33.537293"
+  },
+  {
+    "decision": 0,
+    "confidence": 58.53,
+    "img_url": "https://real-vs-fake.vercel.app/lastpictureoftheday.jpg",
+    "explanation": "V2 model confidence is below 70%.",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "JPEG",
+    "timestamp": "2025-02-23T02:20:45.135135"
+  },
+  {
+    "decision": 0,
+    "confidence": 98.66798520088196,
+    "img_url": "https://real-vs-fake.vercel.app/real1.jpg",
+    "explanation": "The VS model is highly confident that the image is real.",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "JPEG",
+    "timestamp": "2025-02-23T02:20:45.213239"
+  },
+  {
+    "decision": 1,
+    "confidence": 89.89294171333313,
+    "img_url": "https://real-vs-fake.vercel.app/30.jpg",
+    "explanation": "The confidence level of the V2 model is above 70%, indicating a high likelihood that the image is real.",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "JPEG",
+    "timestamp": "2025-02-23T02:20:45.404403"
+  },
+  {
+    "decision": 1,
+    "confidence": 75.39612650871277,
+    "img_url": "https://real-vs-fake.vercel.app/lastlast.jpg",
+    "explanation": "The V2 model predicted this image as 'FAKE' with 75.39% confidence, exceeding the 70% threshold to mark as fake.",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "JPEG",
+    "timestamp": "2025-02-23T02:20:45.781523"
+  },
+  {
+    "decision": 1,
+    "confidence": 81.28886222839355,
+    "img_url": "https://real-vs-fake.vercel.app/image.png",
+    "explanation": "V2 Model has detected strong indicators of image manipulation with a confidence of 81.28886222839355.",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "PNG",
+    "timestamp": "2025-02-23T02:20:45.862079"
+  },
+  {
+    "decision": 0,
+    "confidence": 50.0,
+    "img_url": "https://real-vs-fake.vercel.app/30.jpg",
+    "explanation": "The V2 model is not confident in its prediction, so we default to real.",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "JPEG",
+    "timestamp": "2025-02-23T02:21:50.635218"
+  },
+  {
+    "decision": 0,
+    "confidence": 71.98706269264221,
+    "img_url": "https://real-vs-fake.vercel.app/real1.jpg",
+    "explanation": "Google Vision results are inconclusive, and V2 Model confidence is not high enough to override the default real decision.",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "JPEG",
+    "timestamp": "2025-02-23T02:21:50.839981"
+  },
+  {
+    "decision": 1,
+    "confidence": 75.39612650871277,
+    "img_url": "https://real-vs-fake.vercel.app/lastlast.jpg",
+    "explanation": "The V2 model has detected strong indicators of image manipulation, with a confidence level of 75.39612650871277%, indicating that the image is likely fake.",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "JPEG",
+    "timestamp": "2025-02-23T02:21:51.166430"
+  },
+  {
+    "decision": 1,
+    "confidence": 81.28886222839355,
+    "img_url": "https://real-vs-fake.vercel.app/image.png",
+    "explanation": "A V2 model indicated the image is fake with over 70% confidence.",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "PNG",
+    "timestamp": "2025-02-23T02:21:51.448303"
+  },
+  {
+    "decision": 0,
+    "confidence": 58.53278040885925,
+    "img_url": "https://real-vs-fake.vercel.app/lastpictureoftheday.jpg",
+    "explanation": "Google Vision indicates the image is very unlikely to be manipulated, and V2 Model confidence is below 70%.",
+    "image_id": "aHR0cHM6Ly9y",
+    "format": "JPEG",
+    "timestamp": "2025-02-23T02:21:51.727602"
+  },
+  {
+    "decision": 0,
+    "confidence": 100,
+    "img_url": "chrome-extension://ocdbbecfckogbgoeggbfehofcnhjjkcg/confuse.gif",
+    "explanation": "Chrome extension resource - skipped analysis",
+    "image_id": "Y2hyb21lLWV4",
+    "timestamp": "2025-02-23T02:22:02.908230"
+  },
+  {
+    "decision": 0,
+    "confidence": 100,
+    "img_url": "chrome-extension://ocdbbecfckogbgoeggbfehofcnhjjkcg/sit.gif",
+    "explanation": "Chrome extension resource - skipped analysis",
+    "image_id": "Y2hyb21lLWV4",
+    "timestamp": "2025-02-23T02:22:03.915479"
+  },
+  {
+    "decision": 0,
+    "confidence": 100,
+    "img_url": "https://www.youtube.com/shorts/WdoY_EXiT80",
+    "explanation": "System error: cannot identify image file <_io.BytesIO object at 0x000001D98AAC8220>",
+    "image_id": "aHR0cHM6Ly93",
+    "timestamp": "2025-02-23T02:22:12.336585"
+  },
+  {
+    "decision": 0,
+    "confidence": 100,
+    "img_url": "chrome-extension://ocdbbecfckogbgoeggbfehofcnhjjkcg/confuse.gif",
+    "explanation": "Chrome extension resource - skipped analysis",
+    "image_id": "Y2hyb21lLWV4",
+    "timestamp": "2025-02-23T02:22:12.717728"
+  },
+  {
+    "decision": 0,
+    "confidence": 100,
+    "img_url": "chrome-extension://ocdbbecfckogbgoeggbfehofcnhjjkcg/shiny.gif",
+    "explanation": "Chrome extension resource - skipped analysis",
+    "image_id": "Y2hyb21lLWV4",
+    "timestamp": "2025-02-23T02:22:18.301563"
+  }
+]

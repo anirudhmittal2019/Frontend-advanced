@@ -1,0 +1,96 @@
+.eagle-watcher {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 200px;
+  height: 200px;
+  z-index: 10000;
+  filter: drop-shadow(0 0 10px rgba(255, 223, 0, 0.3));
+}
+
+@keyframes eagle-watch {
+  0% { transform: rotate(0deg) scale(1); }
+  25% { transform: rotate(15deg) scale(1.05); }
+  75% { transform: rotate(-15deg) scale(1.05); }
+  100% { transform: rotate(0deg) scale(1); }
+}
+
+.blocked-image-container {
+  position: relative;
+  display: inline-block;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.blocked-image-container:hover {
+  transform: translateY(-2px);
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    135deg, 
+    rgba(0, 0, 0, 0.85) 0%,
+    rgba(0, 0, 0, 0.75) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  backdrop-filter: blur(4px);
+  transition: all 0.3s ease;
+}
+
+.image-overlay::before {
+  content: '⚠️';
+  font-size: 48px;
+  margin-bottom: 15px;
+  animation: warning-pulse 2s infinite;
+}
+
+@keyframes warning-pulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.1); opacity: 0.8; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.image-overlay p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 16px;
+  margin: 0 0 20px 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.show-anyway-btn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background: transparent;
+  border: 2px solid rgba(255, 68, 68, 0.8);
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.show-anyway-btn:hover {
+  background: rgba(255, 68, 68, 0.8);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(255, 68, 68, 0.3);
+}
+
+.show-anyway-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 6px rgba(255, 68, 68, 0.2);
+}
